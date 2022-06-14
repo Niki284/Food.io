@@ -1,0 +1,30 @@
+
+
+.winkel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gainsboro;
+    border: 2px solid;
+    border-radius: 1rem;
+ 
+    position: absolute;
+    bottom: 0;
+    width: 496px;
+    left: calc(50% - 200px);
+     height: 60px;
+    transition: 0.5s all;
+    overflow: hidden;
+        .winkel__list {
+            display: none;
+        }
+    &.active{
+        overflow-y:scroll;
+        height: 450px;
+        >.winkel__list {
+            display: block;
+           
+        }
+    }
+
+}

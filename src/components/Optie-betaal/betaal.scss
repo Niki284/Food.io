@@ -1,0 +1,63 @@
+<<<<<<< HEAD:food-app/src/components/Optie-betaal/betaal.scss
+
+.betaal-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .title {
+        display: block;
+        text-align: center;
+    }
+     
+     .betaal {
+         background-color: burlywood;
+   
+      .betaal-list {
+          list-style-type: none;
+        .betaal-lis {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+
+      }
+      }
+     
+      .betaal-lis img {
+          
+            height: 2rem;
+            width: 2rem;
+      }
+     }
+     
+        
+=======
+
+.betaal-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .title {
+        display: block;
+        text-align: center;
+    }
+     
+     .betaal {
+         background-color: burlywood;
+          .betaal-list {
+          display: flex;
+      }
+      .betaal-list {
+          list-style-type: none;
+      }
+      .betaal-lis img {
+          
+            height: 2rem;
+            width: 2rem;
+      }
+     }
+     
+        
+>>>>>>> ba2029d322e4ceb0622457fb6bbf66b1a7788b5f:src/components/Optie-betaal/betaal.scss
+}
